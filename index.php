@@ -16,7 +16,7 @@ $today = getdate();
     <title><?=$title ?></title>
 </head>
 <body>
-    <h1>Текущее время: <?php $today['hours'] ?> часов, <?php $today['minutes']?> минут, <?php $today['seconds']?> секунд.</h1>
-    <h1>Дата: <?php $today['mday']?>.<?php $today['month']?>.<?php $today['year']?></h1>
+    <h1>Текущее время: <?=$today['hours'] ?> часов, <?= $today['minutes']?> минут, <?= $today['seconds']?> секунд.</h1>
+    <h1>Дата: <?= date("d")?>.<?= date("m") ?>.<?= date("y") ?></h1>
 </body>
 </html>
