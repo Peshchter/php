@@ -1,12 +1,9 @@
 <!doctype html>
-
 <?php
 $lang = "ru";
 $title = "Главная страница";
 $today = getdate();
 ?>
-
-
 <html lang=<?=$lang?>>
 <head>
     <meta charset="UTF-8">
